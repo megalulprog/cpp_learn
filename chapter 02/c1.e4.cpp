@@ -1,11 +1,14 @@
 #include <iostream>
 using namespace std;
-double CtF(double celsium) {
+
+double c2f(double celsium) {
 	return 1.8 * celsium + 32;
 }
+
 int main(void) {
-	double C;
+	double c;
 	cout << "Enter Celsium: ";
-	cin >> C;
-	cout << C << " of Celsium is " << CtF(C) << " of Fahrenheit";
+	cin >> c;
+
+	cout << c << " of Celsium is " << c2f(c) << " of Fahrenheit";
 }
