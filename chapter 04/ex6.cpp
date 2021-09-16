@@ -1,5 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
+#define LEN 20
+
 #include <iostream>
 #include <string>
 #include <cstring>
@@ -14,7 +16,7 @@ void main(void) {
         int kal;
     };
 
-    CandyBar snack[3];
+    CandyBar snack[LEN];
 
     snack[0].name = "a";
     snack[0].kal = 300;
@@ -28,7 +30,7 @@ void main(void) {
     snack[2].kal = 300;
     snack[2].weight = 2.5;
 
-    for (int n = 0; n < 3; n++) {
+    for (int n = 0; n < LEN; n++) {
         cout << snack[n].name << " " << snack[n].weight << " " << snack[n].kal << "\n";
     }
 

@@ -6,8 +6,8 @@ void main(void) {
 
     char fName[20], sName[20];
     int size = 20;
-    char grade;
-    int age;
+    char grade = "0";
+    int age = 0;
 
     cin.getline(fName, size);
     cin.getline(sName, size);

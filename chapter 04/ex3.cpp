@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-
+#define LEN 20
 #include <iostream>
 #include <string>
 #include <cstring>
@@ -8,11 +8,11 @@ using namespace std;
 
 void main(void) {
 
-    char fname[20], sname[20];
-    char sum[40];
+    char fname[LEN], sname[LEN];
+    char sum[2*LEN];
 
-    cin.getline(fname, 20);
-    cin.getline(sname, 20);
+    cin.getline(fname, LEN);
+    cin.getline(sname, LEN);
 
     strcpy(sum, fname);
     strcat(sum, ", ");
