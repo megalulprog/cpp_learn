@@ -7,7 +7,7 @@ void time(int m, int h) {
 }
 
 int main(void) {
-	int hours, mins;
+	int hours = 0, mins = 0;
 	cout << "Enter hours: ";
 	cin >> hours;
 
